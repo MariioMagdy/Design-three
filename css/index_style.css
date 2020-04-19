@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap');
+.home-page{
+    background-image: url(../images/header/header-bg.jpg);
+    background-size: cover;
+    height: 700px;
+    background-position: center center;
+}
+.header {
+    height: 700px;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.navbar-brand{
+    color: #fed136 !important;
+    font-size: 1.7rem;
+    font-family: 'Kaushan Script', cursive;;
+}
+.nav-item{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+nav a:hover{
+    color:#fed136 !important  ;
+}
+.header .container h2 {
+    font-size: 2.5rem;
+    font-family:  'Roboto Slab', serif;
+}
+
+::selection{
+    background-color:#d9a300;
+}
+
+
+.header .container h1{
+font-size: 75px;
+font-weight: 700;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.header .container button {
+    background-color: #ffc107;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    width: 240px;
+    transition: .3s;
+}
+
+.header .container button:hover{
+    background-color:#d9a300 !important ;
+}
+
+.card{
+    position: relative;
+    overflow: hidden;
+}
+
+.card h5{
+    color:#002147;
+}
+
+.card h6{
+    color:#d9a300;
+}
+
+.card-body {
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+    left: 12px;
+    bottom: 12px;
+    width: 90%;
+    transition: .6s;
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 33, 71, 0.7);
+    top:15px;
+    bottom: 15px;
+    right: 15px;
+    left: 15px;
+    width: 90%;
+    transform: translate(0,-500px);
+    transition: .9s;
+    
+}
+
+.overlay a {
+    color:#d9a300;
+    font-weight: bold;
+}
+.card:hover .card-body{
+    bottom: -150px;
+    transition: .6s;
+}
+
+.card:hover .overlay{
+    transform: translate(0,0);
+    
+
+}
+.TopCategories{
+    background-color: #f9f9f9;
+    
+}
+
+.TopCategories .container .card{
+    transition: .7s;
+}
+
+.b1{
+    background-color: rgb(51,122,183);
+    transition: .7s;
+}
+
+.b1:hover{
+    background-color: rgba(51,122,183,.5);
+
+}
+.b2{
+    background-color: #1ec1d9;
+    transition: .7s;
+}
+.b2:hover{
+    background-color: #1ec0d994;
+}
+.b3{
+    background-color: #10c45c;
+    transition: .7s;
+}
+.b3:hover{
+    background-color: #10c45bab;
+}
+.b4{
+    background-color: #47c58e;
+    transition: .7s;
+}
+.b4:hover{
+    background-color: #47c58eab;
+}
+.b5{
+    background-color: #f9bd44;
+    transition: .7s;
+}
+
+.b5:hover{
+    background-color: #f9bd44b0;
+}
+.b6{
+    background-color: #e948ae;
+    transition: .7s;
+}
+.b6:hover{
+    background-color: #e948aead;
+}
+.b7{
+    background-color: #e84b3a;
+    transition: .7s;
+}
+
+.b7:hover{
+    background-color: #e84b3ab9;
+}
+.b8{
+    background-color: #92278f;
+    transition: .7s;
+}
+.b8:hover{
+    background-color: #92278fbd;
+}
+.se2{
+    background-color: #f9bd44ee;
+}
+
+.card-title{
+    color:white !important;
+}
+
+
+.se2{
+    opacity: 0;
+    transition: .5s;
+}
+
+.se2:hover{
+    opacity: 1;
+}
+
+.contact-us{
+    background-image: url(../images/header/map-image.png);
+    background-color: #212529;
+    background-size: center center;
+}
+
+.contact-us p{
+    color:#6b737d ;
+}
+
+.contact-us h2{
+    letter-spacing: 01px;
+}
+
+.contact-us input {
+padding: 35px 0 35px 35px;
+}
+
+.contact-us button{
+    background-color: #ffc107;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    width: 240px;
+    transition: .3s;
+}
+
+.contact-us button:hover{
+    background-color:#d9a300 !important ;
+    
+}
+.TopCategories h3{
+    font-size:15px ;
+    color: grey;
+    font-style: italic;
+    font-weight: bold;
+}
+.TopCategories h2{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+@media (max-width:991px){
+
+    .home-page .cu-nav{
+        background-color:#212529 ;
+        font-size: .5rem;
+        max-width: 100% !important;
+    }
+    .navbar-brand{
+        font-size: 1.3rem;
+        padding: 15px 20px 20px 15px !important;
+    }
+    .navbar-toggler {
+        background-color:#d9a300 ;
+        margin-right: 15px;
+    }
+    .navbar-toggler::before{
+        content: "Menu";
+    }
+
+    .header .container h2 {
+        font-size: 1rem;
+    }
+    .card {
+        font-size: 10px;
+    }
+
+    .TopCategories .container{
+
+        font-size: 20px;
+    }
+    .TopCategories h5 {
+        font-size: 20px;
+    }
+    .TopCategories .container .col-md-3{
+       padding:05px;
+    }
+    .TopCategories .b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8{
+        padding-top: 25px !important;
+    }
+    .overlay {
+        font-size: 1rem;
+    }
+}  
